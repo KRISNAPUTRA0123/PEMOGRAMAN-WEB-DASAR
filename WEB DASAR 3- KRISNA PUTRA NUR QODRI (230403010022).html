@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KRISNA PUTRA NUR QODRI</title>
+</head>
+<body>
+    <h1 style="background-color: rgb(242, 137, 9);">Formulir Pendaftaran Siswa</h1>
+    <form action="">
+        <table style="background-color: #e9e9e9; border: 1px solid black; width: 100%;">
+            <tr>
+                <td><label for="nama">Nama Calon Siswa</label></td>
+                <td><p>:</p></td>
+                <td><input type="text" name="nama" id="nama" style="width: 235px;"></td>
+            </tr> 
+            <tr>   
+                <td><label for="tempat_tgl_lahir">Tempat/Tanggal Lahir</label></td>
+                <td><p>:</p></td>
+                <td>
+                    <input type="text" name="tempat_tgl_lahir1" id="tempat_tgl_lahir" style="width: 235px;">
+                    <input type="date" name="tempat_tgl_lahir2" id="tempat_tgl_lahir" style="width: 235px;">
+                </td> 
+            </tr> 
+            <tr>
+                <td><label for="agama">Agama</label></td>
+                <td><p>:</p></td>
+                <td>
+                    <select name="agama" id="agama">
+                        <option value="islam">Islam</option>
+                        <option value="kristen">Kristen</option>
+                        <option value="katolik">Katolik</option>
+                        <option value="budha">Budha</option>
+                        <option value="hindu">Hindu</option>
+                        <option value="khonghucu">Khonghucu</option>
+                    </select>
+            </td>
+            </tr> 
+            <tr>
+                <td><label for="alamat">Alamat</label></td>
+                <td><p>:</p></td>
+                <td colspan="3"><textarea name="" id="" cols="100" rows="10"></textarea></td>
+            </tr>
+            <tr>
+                <td><label for="No_Telpon">No.Telpon/HP</label></td>
+                <td><p>:</p></td>
+                <td><input type="number" name="telpon" id="telpon" style="width: 235px;"></td>
+            </tr>
+            <tr>
+                <td><label for="jnskelamin">Jenis Kelamin</label></td>
+                <td><p>:</p></td>
+                <td><input type="radio" name="jeniskelamin" id="laki" value="laki">
+                <label for="laki">Laki-Laki</label>
+                <input type="radio" name="jeniskelamin" id="perempuan" value="perempuan">
+                <label for="perempuan">Perempuan</label></td>
+            </tr>
+            <tr>
+                <td><label for="hobi">Hobi</label></td>
+                <td><p>:</p></td>
+                <td>
+                    <input type="checkbox" name="membaca" id="membaca" value="membaca">
+                    <label for="Membaca">Membaca</label>
+                    <input type="checkbox" name="menulis" id="menulis" value="menulis">
+                    <label for="menulis">Menulis</label>
+                    <input type="checkbox" name="makan" id="makan" value="makan">
+                    <label for="makan">Makan</label>
+                    <input type="checkbox" name="olahraga" id="olahraga" value="olahraga">
+                    <label for="olahraga">Olahraga</label>
+                    <input type="checkbox" name="tidur" id="tidur" value="tidur">
+                    <label for="tidur">Tidur</label>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="pasfoto">Pas Foto</label></td>
+                <td><p>:</p></td>
+                <td><input type="file" name="pasfoto" id="pasfoto"></td>
+            </tr>
+            <tr>
+                <td colspan="4">
+                    <button type="submit" style="width: 350px; height: 30px; background-color: aquamarine;">SUBMIT</button>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

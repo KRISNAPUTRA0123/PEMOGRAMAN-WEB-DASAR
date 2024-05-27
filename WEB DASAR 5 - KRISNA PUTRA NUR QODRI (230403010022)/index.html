@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        * {
+            margin-top: 10px;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: sans-serif;
+            font-size: 16px;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            margin-left: 15px;
+        }
+        .title {
+            margin-left: 15px;
+        }
+        .volume {
+            background-color: aqua;
+            width: 200px;
+            height: 30px;
+            text-align: center;
+            padding-top: 5px;
+            border-radius: 15px;
+        }
+    </style>
+    <title>KRISNA PUTRA</title>
+</head>
+<body>
+    <div class="title">
+        <h2>KRISNA PUTRA NUR QODRI</h2>
+        <h2>(230403010022)</h2>
+    </div>  
+    <div class="container">
+        <div class="rumusVKubus">
+            <h1 class="volume">Volume Kubus</h1>
+            <input type="number" nama="sisi" id="sisi" placeholder="Masukkan Sisi Kubus">
+            <br><br>
+            <button onclick="VKubus()">Hitung</button>
+            <p id="hasilVolumeKubus"></p>
+        </div>
+        <br><br>
+        <div class="rumusVBalok">
+            <h1 class="volume">Volume Balok</h1>
+            <input type="number" nama="panjang" id="panjang" placeholder="Masukkan Panjang Balok">
+            <input type="number" nama="lebar" id="lebar" placeholder="Masukkan Lebar Balok">
+            <input type="number" nama="tinggi" id="tinggi" placeholder="Masukkan Tinggi Balok">
+            <br><br>
+            <button onclick="VBalok()">Hitung</button>
+            <p id="hasilVolumeBalok"></p>
+        </div>
+        <br><br>
+        <div class="rumusVPrismaSegitiga">
+            <h1 class="volume">Volume Prisma Segitiga</h1>
+            <input type="number" nama="alas" id="alas" placeholder="Masukkan Alas Segitiga">
+            <input type="number" nama="tSegitiga" id="tSegitiga" placeholder="Masukkan Tinggi Segitiga">
+            <input type="number" nama="tPrisma" id="tPrisma" placeholder="Masukkan Tinggi Prisma">
+            <br><br>
+            <button onclick="VPrismaSegitiga()">Hitung</button>
+            <p id="hasilVolumePrismaSegitiga"></p>
+        </div>
+        <br><br>
+    </div>    
+    <script src="./script.js"></script>
+</body>
+</html>

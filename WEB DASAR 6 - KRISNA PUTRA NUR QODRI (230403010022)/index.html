@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KRISNA PUTRA</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: sans-serif;
+        }
+        .navbar {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            padding-top: 15px;
+            padding-left: 50px;
+            padding-right: 50px;
+            padding-bottom: 15px;
+            background-color: rgb(27, 29, 29);
+            color: white;
+        }
+        .detailProfil {
+            display: flex;
+            flex-direction: row;
+        }
+        .logoNav {
+            font-size: 25px;
+        }
+        .titleNav {
+            font-size: 20px;
+            margin-left: 35px;
+        }
+        .header {
+            display: flex;
+            flex-direction: row;
+            margin-top: 20px;
+            justify-content: space-around;
+            align-items: center;
+        }
+        .content1 {
+            text-align: center;
+        }
+
+        .text-1 {
+            margin-bottom: 20px;
+        }
+
+        .text-2 {
+            margin-top: 20px;
+            font-size: 22px;
+        }
+
+        .text-3 {
+            margin-top: 10px;
+            font-size: 16px;
+        }
+
+        .img-1 {
+            width: 600px;
+            height: auto;
+        }
+        .profile {
+            background-color: rgb(27, 29, 29);
+            padding-top: 40px;
+            padding-bottom: 140px;
+        }
+        .detail-profile {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+        }
+        .kotakProfile {
+            background-color: #fefefe;
+            padding: 80px;
+            margin-left: 5px;
+            border-radius: 10px;
+        }
+        .logo {
+            width: 120px;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+  <div class="navbar">
+    <p class="logoNav"><i><b>KRISNA</b>PUTRA</i></p>
+    <div class="detailProfil">
+        <a href="./index.html" style="text-decoration: none; color: white;"><p class="titleNav">Home</p></a>
+        <a href="#profile" style="text-decoration: none; color: white;"><p class="titleNav">Profile</p></a>
+        <a href="./galeri.html" style="text-decoration: none; color: white;"><p class="titleNav">Gallery</p></a>
+        <a href="./login.html" style="text-decoration: none; color: white;"><p class="titleNav">Log In</p></a>
+    </div>
+  </div>
+  <div class="header">
+    <div class="content1">
+        <h1 class="text-1">HELLO WORLD</h1>
+        <p class="text-2"><b>Perkenalkan Saya Krisna Putra Nur Qodri</b></p>
+        <p class="text-3"><b>Berasal dari Universitas PGRI Kanjuruhan Malang</b></p>
+    </div>
+        <div class="content2">
+            <img src="./images/krisnaputra.png" alt="krisnaputra" class="img-1">
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <div class="profile" id="profile">
+        <h1 style="text-align: center; color: rgb(231, 86, 2); margin-top: 10px;">PROFILE</h1>
+        <p style="text-align: center; color: white; margin-top: 10px;">Ini adalah detail profile saya, yang berisi mengenai kemampuan saya. <br/>
+             Silakan lihat dan beri tahu saya, jika ada saran.</p>
+             <br><br><br>
+        <div class="detail-profile">
+            <div class="kotakProfile">
+                <img src="./images/web-programming.png" alt="" class="logo">
+                <p style="text-align: center;"><b>Graphic <br/>Designing</b></p>
+            </div>
+            <div class="kotakProfile">
+                <img src="./images/pc.png" alt="" class="logo">
+               <p style="text-align: center;"><b>UI / UX <br/>Designing</b></p> 
+            </div>
+            <div class="kotakProfile">
+                <img src="./images/internet.png" alt="" class="logo">
+                <p style="text-align: center;"><b>Web <br/>Development</b></p>
+            </div>
+            <div class="kotakProfile">
+                <img src="./images/video-editor.png" alt="" class="logo">
+                <p style="text-align: center;"><b>Video <br/> Editing</b></p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

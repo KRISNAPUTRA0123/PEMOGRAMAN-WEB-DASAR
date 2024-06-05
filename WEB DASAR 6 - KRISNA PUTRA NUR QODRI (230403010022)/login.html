@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KRISNA PUTRA</title>
+    <style>
+         * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: sans-serif;
+        }
+        .navbar {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            padding-top: 15px;
+            padding-left: 50px;
+            padding-right: 50px;
+            padding-bottom: 15px;
+            background-color: rgb(27, 29, 29);
+            color: white;
+        }
+        .detailProfil {
+            display: flex;
+            flex-direction: row;
+        }
+        .logoNav {
+            font-size: 25px;
+        }
+        .titleNav {
+            font-size: 20px;
+            margin-left: 35px;
+        }
+        .login {
+            justify-content: center;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            text-align: center;
+            margin-top: 60px;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: start;
+            background-color: #eee;
+            margin: 0px 0px 0px 0px;
+            padding: 40px 50px 40px 50px;
+        }
+        h1 {
+            padding-bottom: 20px;
+        }
+        input {
+            margin-top: 10px;
+            padding: 5px;
+        }
+        .btnSubmit {
+            width: 200px;
+            height: 40px;
+            border-radius: 15px;
+            color: white;
+            background-color: rgb(27, 29, 29);
+        }
+        .imgLog {
+            height: 487px;
+            width: auto;
+            margin-top: 4px;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <p class="logoNav"><i><b>KRISNA</b>PUTRA</i></p>
+        <div class="detailProfil">
+            <a href="./index.html" style="text-decoration: none; color: white;"><p class="titleNav">Home</p></a>
+            <a href="#profile" style="text-decoration: none; color: white;"><p class="titleNav">Profile</p></a>
+            <a href="./galeri.html" style="text-decoration: none; color: white;"><p class="titleNav">Gallery</p></a>
+            <a href="./login.html" style="text-decoration: none; color: white;"><p class="titleNav">Log In</p></a>
+        </div>
+    </div>
+    <div class="login">
+        <form action="" method="">
+        <h1>Login</h1>
+        <label for="nama">Nama Lengkap</label>
+        <input type="text" name="nama" id="nama" placeholder="Masukkan Nama Lengkap">
+        <br>
+        <h3>Jenis Kelamin</h3>
+        <div><input type="radio" name="jkelamin" id="laki" value="laki">
+            <label for="laki">Laki-Laki</label>
+            <input type="radio" name="jkelamin" id="perempuan" value="perempuan">
+            <label for="perempuan">Perempuan</label>
+        </div>
+        <br>
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" placeholder="Masukkan Email Anda">
+        <br>
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password" placeholder="Masukkan Password Anda">
+        <br><br>
+        <button onclick="validation()" class="btnSubmit"> Submit </button>
+    </form>
+    <div class="logKonten">
+        <img src="./images/Batu-Night-Spectacular.jpg" alt="" class="imgLog">
+    </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
